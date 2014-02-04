@@ -1,0 +1,43 @@
+Microsite functions:
+- Focuses on one main topic/theme
+- Targets specific group or audience
+- Targets a new market
+- Engaging and experimental
+- Story telling
+
+The elements of the user experience are: design, usability, content and functionality. 
+Independently none make for a positive user experience, but together they make for a website's success. 
+
+
+Design:
+All aesthetic and creative elements within the website
+Site's creative projection of desired organizational image and messages
+
+First impressions
+Visual treatment
+Branding
+Use of media
+Engaging
+
+
+Content:
+Actual content of the site (text, multimedia and images)
+Quality and structure based on user needs and business requirements
+
+Well targeted content
+Helpful and guiding
+Quality
+Original and fresh
+Persuasive
+
+
+Usability:
+General ease of use of all site components and features
+From overall site interaction and flow to individual page structure
+
+Site organizations and labels
+Navigation
+User flow
+Consistency
+Responsiveness
+
