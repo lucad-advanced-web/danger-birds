@@ -7,9 +7,9 @@ background-color:#231f20;
 
 
 .intro-message{
-font-family:"Crimson";
-font-size:18px;
-color: white;
+	font-family:"Crimson";
+	font-size:24px;
+	color: white;
 }
 
 .top-row-birds{
@@ -17,7 +17,9 @@ color: white;
 }
 
 .top-row-bird-names{
-
+	font-family:Helvetica;
+	font-size:14px;
+	color:white;
 
 }
 
@@ -27,11 +29,41 @@ color: white;
 }
 
 .bottom-row-bird-names {
-
+	font-family:Helvetica;
+	font-size:14px;
+	color:white;
 	
 }
 
 
 
+/*******  BEGIN MEDIA QUERIES *******/
+/* 481px - 768px */
+@media screen and (min-width:480px) {
+      body  {
+            background: #FF0000;  /* Red */
+      }
 
+	.intro-message{
+		font-size:18px;
+	}
+}
+/* 768px - 1024px */
+@media screen and (min-width:768px) {
+      body  {
+            background: #00FF00;   /* Green */
+      }
+    .intro-message{
+		font-size:18px;
+	}
+}
+/* 1024px and Larger  */
+@media screen and (min-width:1024px) {
+      body  {
+            background: #0000FF;   /* Blue */
+      }
+    .intro-message{
+		font-size:16px;
+	}
+}
 
