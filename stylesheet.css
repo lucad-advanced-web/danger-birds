@@ -1,27 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body
-{
+
+body {
+
 background-color:#231f20;
 }
-h1
-{
+
+.siteheader{
 
 }
-p
-{
+
+.intro-message{
 font-family:"Crimson";
 font-size:20px;
+color: white;
 }
-</style>
-</head>
 
-<body>
+.top-row-birds{
 
-<h1>CSS example!</h1>
-<p>This is a paragraph.</p>
+}
 
-</body>
-</html>
+.top-row-bird-names{
+
+
+}
+
+.bottom-row-birds {
+
+
+}
+
+.bottom-row-bird-names {
+
+	
+}
+
+
+
+
+
