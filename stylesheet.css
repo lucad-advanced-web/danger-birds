@@ -24,12 +24,12 @@
 	}
 
 	.crane {
-		max-width:100%;
+		width:240px;
 		padding:10px;
 	}
 
 	.top-birds{
-		margin:25px;
+		margin-right:100px;
 	}
 
 	.top-names{
@@ -66,19 +66,14 @@
 	}
 
 	.top-birds{
-		list-style-type:none;
-		width:200px;
-		display:inline;
 	}
 
 	.crane{
-		max-width:100%;
+		max-width:60%;
 	}
 
 	.top-names{
 		font-size:16px;
-		padding:0px;
-		margin:0px;
 	}
 
 	.bottom-birds{
@@ -86,8 +81,6 @@
 
 	.bottom-names{
 		font-size:16px;
-		padding:0px;
-		margin:0px;
 	}
 }
 
@@ -105,9 +98,11 @@
 	}
 
 	.crane{
+		padding:20px;
 	}
 
 	.top-names{
+
 	}
 
 	.bottom-birds{
@@ -128,9 +123,11 @@
 	}
 
 	.top-birds{
+		width:1000px;
 	}
 
 	.crane{
+		padding-right:70px;
 	}
 
 	.top-names{
