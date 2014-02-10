@@ -11,26 +11,159 @@
 
 	font-family: Helvetica;
 	color: #e0ad48;
+	margin-bottom: 5px;
 
 }
 
 .Ivory-section{
 	background-color: #e0ad48;
+	width:290px;
 
-}
-
-.ivorybill_text_img {
-	float: left;
 }
 
 .bird-info{
 	font-family:;
 	color: white;
 	font-family:'Crimson Text', serif; 
+	padding: 10px;
 
 
 }
 
+.ivorybill_text_img {
+	width: 290px;
+
+}
+
+.Piping-section {
+	background-color:#758c48;
+	width: 290px;
+
+}
+.plover_text_img {
+	width: 290px;
+}
+
+
+/*******  BEGIN MEDIA QUERIES *******/
+
+/* 481px - 768px */
+@media screen and (min-width:480px) {
+      body  {
+            background: #FF0000;  /* Red */
+      }
+
+	h1.siteheader {
+		font-size:50px;
+	}
+
+	.intro-message{
+		font-size:18px;
+	}
+
+	.top-row-birds{
+		max-width:100%;
+		height:auto;
+	}
+
+	.top-row-birds img{
+		padding:10px;
+	}
+
+	.top-row-bird-names{
+		margin-bottom:2px;
+		font-size:16px;
+	}
+
+	.bottom-row-birds{
+		max-width:100%;
+		height:auto;
+	}
+
+	.bottom-row-birds img{
+		padding:10px;
+	}
+
+	.bottom-row-bird-names{
+		margin-bottom:2px;
+		font-size:18px;
+	}
+}
+
+/* 768px - 1024px */
+@media screen and (min-width:768px) {
+      body{
+            background: #00FF00;   /* Green */
+      }
+
+	.intro-message{
+		font-size:16px;
+	}
+
+	.top-row-birds{
+		width:100%
+	}
+
+	.top-row-birds img{
+		width:250px;
+	}
+
+	.top-row-bird-names{
+		margin-bottom:2px;
+		list-style-type:none;
+	}
+
+	.bottom-row-birds{
+		width:100%;
+		height:auto;
+	}
+
+	.bottom-row-birds img{
+		width:250px;
+	}
+
+	.bottom-row-bird-names{
+		margin-bottom:2px;
+		list-style-type:none;
+	}
+}
+
+/* 1024px and Larger  */
+@media screen and (min-width:1024px) {
+      body{
+            background: #0000FF;   /* Blue */
+      }
+    
+    .intro-message{
+		font-size:16px;
+	}
+
+	.top-row-birds{
+	}
+
+	.top-row-birds img {
+
+	}
+
+	.top-row-bird-names{
+		list-style-type:none;
+		display:inline-block;
+		margin-bottom:2px;
+	}
+
+	.bottom-row-birds {
+	}
+
+	.bottom-row-birds img {
+
+	}
+
+	.bottom-row-bird-names{
+		list-style-type:none;
+		display:inline-block;
+		margin-bottom:2px;
+	}
+}
 
 
 
