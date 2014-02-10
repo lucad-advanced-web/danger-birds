@@ -1,85 +1,60 @@
 
-body{
-	background-color:#231f20;
-}
+	body{
+		background-color:#231f20;
+	}
 
-h1.siteheader{
-	color:#231f20;
-	background-color: #e0ad48;
-	height:100%;
-	margin-top:-10px;
-	margin-left:-10px;
-	margin-right:-10px;
-	padding-top:50px;
-	padding-left:25px;
-}
+	h1.siteheader{
+		color:#231f20;
+		background-color: #e0ad48;
+		height:100%;
+		margin-top:-10px;
+		margin-left:-10px;
+		margin-right:-10px;
+		padding-top:50px;
+		padding-left:25px;
+	}
 
-.intro-message{
-	font-family:"Crimson";
-	font-size:18px;
-	color: white;
-	padding-left:25px;
-	margin-left:-10px;
-}
+	.intro-message{
+		font-family:"Crimson";
+		font-size:18px;
+		color: white;
+		padding-left:25px;
+		margin-left:-10px;
+		margin-bottom:50px;
+	}
 
-.top-row-birds{
-	margin:25px;
-}
+	.top-row-birds{
+		margin:25px;
+	}
 
-.crane {
-	width: 242px;
-	margin-bottom: 71px;
-}
+	.crane {
+		width: 242px;
+		margin-bottom: 71px;
+	}
 
-.top-row-bird-names{
-	float:left;
-	font-family:Helvetica;
-	font-size:14px;
-	color:white;
-}
+	.top-names{
+		font-family:Helvetica;
+		color:white;
+		padding:10px;
+	}
 
-.bottom-row-birds {
-	clear:both;
-	margin:25px;
-}
+	.bottom-row-birds {
+		clear:both;
+		margin:25px;
+	}
 
-.bottom-row-bird-names {
-	float:left;
-	font-family:Helvetica;
-	font-size:14px;
-	color:white;
-}
-
-.bird-1 {
-	padding:5px;
-}
-
-.bird-2 {
-	padding:5px;
-}
-
-.bird-3 {
-	padding:5px;
-}
-
-.bird-4 {
-	padding:5px;
-}
-
-.bird-5 {
-	padding:5px;
-}
-
-.bird-6 {
-	padding:5px;
-}
+	.bottom-names {
+		font-family:Helvetica;
+		color:white;
+		padding-right:10px;
+	}
 
 
 /*******  BEGIN MEDIA QUERIES *******/
 
 /* 481px - 768px */
 @media screen and (min-width:480px) {
-      body  {
+      body{
             background: #FF0000;  /* Red */
       }
 
@@ -97,12 +72,14 @@ h1.siteheader{
 	}
 
 	.top-row-birds img{
-		padding:10px;
+		padding:20px;
 	}
 
-	.top-row-bird-names{
+	.top-names{
+		list-style-type:none;
 		margin-bottom:2px;
 		font-size:16px;
+		display:inline-block;
 	}
 
 	.bottom-row-birds{
@@ -111,12 +88,14 @@ h1.siteheader{
 	}
 
 	.bottom-row-birds img{
-		padding:10px;
+		padding:20px;
 	}
 
-	.bottom-row-bird-names{
+	.bottom-names{
+		list-style-type:none;
 		margin-bottom:2px;
 		font-size:18px;
+		display:inline-block;
 	}
 }
 
@@ -135,10 +114,10 @@ h1.siteheader{
 	}
 
 	.top-row-birds img{
-		width:250px;
+		
 	}
 
-	.top-row-bird-names{
+	.top-names{
 		margin-bottom:2px;
 	}
 
@@ -148,10 +127,10 @@ h1.siteheader{
 	}
 
 	.bottom-row-birds img{
-		width:250px;
+		
 	}
 
-	.bottom-row-bird-names{
+	.bottom-names{
 		margin-bottom:2px;
 	}
 }
@@ -167,22 +146,25 @@ h1.siteheader{
 	}
 
 	.top-row-birds{
+
 	}
 
 	.top-row-birds img {
+
 	}
 
-	.top-row-bird-names{
+	.top-names{
 		margin-bottom:2px;
 	}
 
 	.bottom-row-birds {
+
 	}
 
 	.bottom-row-birds img {
 	}
 
-	.bottom-row-bird-names{
+	.bottom-names{
 		margin-bottom:2px;
 	}
 }
