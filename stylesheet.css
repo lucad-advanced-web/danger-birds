@@ -17,19 +17,18 @@
 	.intro-message{
 		font-family:"Crimson";
 		font-size:18px;
-		color: white;
+		color:white;
 		padding-left:25px;
 		margin-left:-10px;
 		margin-bottom:50px;
 	}
 
-	.top-row-birds{
-		margin:25px;
+	.crane {
+		max-width:100%;
 	}
 
-	.crane {
-		width: 242px;
-		margin-bottom: 71px;
+	.top-birds{
+		margin:25px;
 	}
 
 	.top-names{
@@ -38,8 +37,7 @@
 		padding:10px;
 	}
 
-	.bottom-row-birds {
-		clear:both;
+	.bottom-birds {
 		margin:25px;
 	}
 
@@ -66,36 +64,29 @@
 		font-size:18px;
 	}
 
-	.top-row-birds{
-		max-width:100%;
-		height:auto;
+	.top-birds{
+		list-style-type:none;
+		width:200px;
+		display:inline;
 	}
 
-	.top-row-birds img{
-		padding:20px;
+	.crane{
+		max-width:100%;
 	}
 
 	.top-names{
-		list-style-type:none;
-		margin-bottom:2px;
 		font-size:16px;
-		display:inline-block;
+		padding:0px;
+		margin:0px;
 	}
 
-	.bottom-row-birds{
-		max-width:100%;
-		height:auto;
-	}
-
-	.bottom-row-birds img{
-		padding:20px;
+	.bottom-birds{
 	}
 
 	.bottom-names{
-		list-style-type:none;
-		margin-bottom:2px;
-		font-size:18px;
-		display:inline-block;
+		font-size:16px;
+		padding:0px;
+		margin:0px;
 	}
 }
 
@@ -109,62 +100,44 @@
 		font-size:16px;
 	}
 
-	.top-row-birds{
-		width:100%
+	.top-birds{
 	}
 
-	.top-row-birds img{
-		
+	.crane{
 	}
 
 	.top-names{
-		margin-bottom:2px;
 	}
 
-	.bottom-row-birds{
-		width:100%;
-		height:auto;
-	}
-
-	.bottom-row-birds img{
-		
+	.bottom-birds{
 	}
 
 	.bottom-names{
-		margin-bottom:2px;
 	}
 }
 
 /* 1024px and Larger  */
 @media screen and (min-width:1024px) {
-      body{
-            background: #0000FF;   /* Blue */
-      }
+    body{
+      	background: #0000FF;   /* Blue */
+    }
     
     .intro-message{
 		font-size:16px;
 	}
 
-	.top-row-birds{
-
+	.top-birds{
 	}
 
-	.top-row-birds img {
-
+	.crane{
 	}
 
 	.top-names{
-		margin-bottom:2px;
 	}
 
-	.bottom-row-birds {
-
-	}
-
-	.bottom-row-birds img {
+	.bottom-birds {
 	}
 
 	.bottom-names{
-		margin-bottom:2px;
 	}
 }
