@@ -23,7 +23,10 @@ h1.siteheader{
 }
 
 .top-row-birds{
-	margin:25px;
+	margin:35px;
+}
+
+.top-row-birds img{
 }
 
 .crane {
@@ -31,48 +34,24 @@ h1.siteheader{
 	margin-bottom: 71px;
 }
 
-.top-row-bird-names{
-	float:left;
+.names-top{
 	font-family:Helvetica;
-	font-size:14px;
 	color:white;
 }
 
 .bottom-row-birds {
-	clear:both;
-	margin:25px;
+	margin:35px;
 }
 
-.bottom-row-bird-names {
-	float:left;
+.bottom-row-birds img{
+}
+
+.names-bottom {
 	font-family:Helvetica;
-	font-size:14px;
 	color:white;
 }
 
-.bird-1 {
-	padding:5px;
-}
 
-.bird-2 {
-	padding:5px;
-}
-
-.bird-3 {
-	padding:5px;
-}
-
-.bird-4 {
-	padding:5px;
-}
-
-.bird-5 {
-	padding:5px;
-}
-
-.bird-6 {
-	padding:5px;
-}
 
 
 /*******  BEGIN MEDIA QUERIES *******/
@@ -97,12 +76,10 @@ h1.siteheader{
 	}
 
 	.top-row-birds img{
-		padding:10px;
 	}
 
-	.top-row-bird-names{
-		margin-bottom:2px;
-		font-size:16px;
+	.names-top{
+		font-size:18px;
 	}
 
 	.bottom-row-birds{
@@ -111,11 +88,9 @@ h1.siteheader{
 	}
 
 	.bottom-row-birds img{
-		padding:10px;
 	}
 
-	.bottom-row-bird-names{
-		margin-bottom:2px;
+	.names-bottom{
 		font-size:18px;
 	}
 }
@@ -138,7 +113,7 @@ h1.siteheader{
 		width:250px;
 	}
 
-	.top-row-bird-names{
+	.names-top{
 		margin-bottom:2px;
 	}
 
@@ -151,7 +126,7 @@ h1.siteheader{
 		width:250px;
 	}
 
-	.bottom-row-bird-names{
+	.names-bottom{
 		margin-bottom:2px;
 	}
 }
@@ -172,8 +147,7 @@ h1.siteheader{
 	.top-row-birds img {
 	}
 
-	.top-row-bird-names{
-		margin-bottom:2px;
+	.names-top{
 	}
 
 	.bottom-row-birds {
@@ -182,7 +156,6 @@ h1.siteheader{
 	.bottom-row-birds img {
 	}
 
-	.bottom-row-bird-names{
-		margin-bottom:2px;
-	}
+	.names-bottom{
+		}
 }
