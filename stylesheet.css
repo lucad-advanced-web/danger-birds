@@ -25,6 +25,7 @@ h1.siteheader{
 .top-row-birds{
 	margin:25px;
 }
+
 .crane {
 	width: 242px;
 	margin-bottom: 71px;
@@ -47,7 +48,8 @@ h1.siteheader{
 }
 
 .bird-1 {
-	text-align: center;
+	text-align:center;
+	padding:5px;
 }
 
 
