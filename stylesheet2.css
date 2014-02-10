@@ -11,19 +11,21 @@
 
 	font-family: Helvetica;
 	color: #e0ad48;
-	margin-bottom: 5px;
-
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
 }
 
 .Ivory-section{
 	background-color: #e0ad48;
 	width:290px;
+	margin-bottom: 45px;
 
 }
 
 .bird-info{
 	font-family:;
-	color: white;
+	color: black;
 	font-family:'Crimson Text', serif; 
 	padding: 10px;
 
@@ -38,19 +40,93 @@
 .Piping-section {
 	background-color:#758c48;
 	width: 290px;
+	margin-bottom: 45px;
 
+
+}
+.Piping-plover-title{
+	font-family: Helvetica;
+	color:#758c48;
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
 }
 .plover_text_img {
 	width: 290px;
 }
 
+.crane-section{
+	background-color: #e0ad48;
+	width:290px;
+	margin-bottom: 45px;
+}
+.Crane-title{
+	font-family: Helvetica;
+	color: #e0ad48;
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
+}
+.crane_text_img{
+	width: 290px;
+}
 
+.iiwi-section {
+	background-color:#758c48;
+	width: 290px;
+	margin-bottom: 45px;
+}
+
+.iiwi-title{
+	font-family: Helvetica;
+	color:#758c48;
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.iiwi_text_img{
+	width: 290px;
+}
+
+.warbler-section{
+	background-color:#e0ad48;
+	width: 290px;
+	margin-bottom: 45px;
+}
+.warbler-title{
+	font-family: Helvetica;
+	color: #e0ad48;
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
+}
+.warbler_text_img{
+	width: 290px;
+}
+
+.nene-section{
+	background-color:#758c48;
+	width: 290px;
+	margin-bottom: 45px;
+}
+.nene-title{
+	font-family: Helvetica;
+	color:#758c48;
+	margin-bottom: -7px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.nene_text_img{
+	width: 290px;
+}
 /*******  BEGIN MEDIA QUERIES *******/
 
 /* 481px - 768px */
 @media screen and (min-width:480px) {
       body  {
-            background: #FF0000;  /* Red */
+            background: black;  /* Red */
       }
 
 	h1.siteheader {
@@ -88,7 +164,32 @@
 		margin-bottom:2px;
 		font-size:18px;
 	}
+
+
+	.Ivory-section{
+		width: 665px;
+	}
+
+	.ivorybill_text_img {
+		width: 502px;
+		margin-left: 75px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.sections{
+		width: 665px;
+		margin: auto;
+	}
+
+	.text_img{
+		width: 502px;
+		margin-left: 75px;
+	}
 }
+
 
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
@@ -125,6 +226,16 @@
 	.bottom-row-bird-names{
 		margin-bottom:2px;
 		list-style-type:none;
+	}
+
+	.sections{
+		width: 882px;
+		height: 306px;
+	}
+
+	.text_img{
+		float: left;
+		margin-left: 25px;
 	}
 }
 
