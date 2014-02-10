@@ -194,7 +194,7 @@
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
       body{
-            background: #00FF00;   /* Green */
+            background: black;   /* Green */
       }
 
 	.intro-message{
@@ -236,6 +236,35 @@
 	.text_img{
 		float: left;
 		margin-left: 25px;
+		margin-right: 12px;
+	}
+
+	.ivorybill_text_img {
+		width: 369px;
+
+	}
+
+	.plover_text_img {
+		width: 399px;
+	}
+	.crane_text_img {
+		width: 428px;
+	}
+
+	.iiwi_text_img {
+		width: 418px;
+	}
+
+	.warbler_text_img{
+		width: 302px;
+	}
+
+	.nene_text_img {
+		width: 458px;
+	}
+
+	.title{
+		margin-bottom: -25px;
 	}
 }
 
@@ -273,6 +302,21 @@
 		list-style-type:none;
 		display:inline-block;
 		margin-bottom:2px;
+	}
+
+	.text_img{
+		margin-left: 37px;
+	}
+
+	.sections{
+		width: 1200px;
+	}
+
+	.bird-info{
+		font-size: 20px;
+	}
+	.title{
+		margin-bottom: -29px;
 	}
 }
 
