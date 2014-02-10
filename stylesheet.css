@@ -23,8 +23,11 @@ h1.siteheader{
 }
 
 .top-row-birds{
-	width:100px;
-	margin:50px;
+	margin:25px;
+}
+.crane {
+	width: 242px;
+	margin-bottom: 71px;
 }
 
 .top-row-bird-names{
@@ -34,8 +37,7 @@ h1.siteheader{
 }
 
 .bottom-row-birds {
-	width:100px;
-	margin:50px;
+	margin:25px;
 }
 
 .bottom-row-bird-names {
@@ -44,6 +46,9 @@ h1.siteheader{
 	color:white;
 }
 
+.bird-1 {
+	text-align: center;
+}
 
 
 /*******  BEGIN MEDIA QUERIES *******/
