@@ -34,8 +34,10 @@
 	.name {
 		font-family:Helvetica;
 		color:white;
-		padding-right:10px;
+		font-size:15px;
 		text-align:center;
+		margin-left:-10px;
+		padding-right:10px;
 	}
 
 /*******  BEGIN MEDIA QUERIES *******/
@@ -43,7 +45,7 @@
 /* 481px - 768px */
 @media screen and (min-width:480px) {
       body{
-            background: #FF0000;  /* Red */
+            background: #231f20; /* Red */
       }
 
 	h1.siteheader {
@@ -59,7 +61,7 @@
 	}
 
 	.name{
-		
+		margin-left:-25px;
 	}
 
 	.ivory{
@@ -83,6 +85,8 @@
 
 	.warbler{
 		position:absolute;
+		margin-top: 229px;
+		margin-left: 250px;
 	}
 
 	.nene{
@@ -93,21 +97,41 @@
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
       body{
-            background: #00FF00;   /* Green */
+            background: #231f20;  /* Green */
       }
 
 	.intro-message{
 		font-size:16px;
 	}
 
+	.plover{
+		position:absolute;
+		margin-left:350px;
+	}
+
+	.warbler{
+		position:absolute;
+		margin-left: 350px;
+	}
+
 /* 1024px and Larger  */
 @media screen and (min-width:1024px) {
     body{
-      	background: #0000FF;   /* Blue */
+      	background:	#231f20;   /* Blue */
     }
     
     .intro-message{
 		font-size:16px;
+	}
+
+	.plover{
+		position:absolute;
+		margin-left:450px;
+	}
+
+	.warbler{
+		position:absolute;
+		margin-left:450px;
 	}
 	
 }
