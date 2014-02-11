@@ -26,27 +26,21 @@
 	.crane {
 		width:240px;
 		padding:10px;
+		margin-bottom: -19px;
+		margin-top: 10px;
+		margin-left: 25px;
 	}
 
-	.top-birds{
-		margin-right:100px;
-	}
 
-	.top-names{
-		font-family:Helvetica;
-		color:white;
-		padding:10px;
-	}
 
-	.bottom-birds {
-		margin:25px;
-	}
-
-	.bottom-names {
+	.name {
 		font-family:Helvetica;
 		color:white;
 		padding-right:10px;
+		text-align: center;
 	}
+
+	
 
 
 /*******  BEGIN MEDIA QUERIES *******/
@@ -65,22 +59,30 @@
 		font-size:18px;
 	}
 
-	.top-birds{
-	}
+	
 
 	.crane{
 		max-width:60%;
 	}
 
-	.top-names{
-		font-size:16px;
+
+
+	.name{
+		
 	}
 
-	.bottom-birds{
+	.plover{
+		position: absolute;
+		margin-left: 246px;
 	}
 
-	.bottom-names{
-		font-size:16px;
+	.ivory{
+		position: relative;
+		float: left;
+	}
+
+	.whooping{
+		float: right;
 	}
 }
 
@@ -94,22 +96,11 @@
 		font-size:16px;
 	}
 
-	.top-birds{
-	}
-
+	
+	
 	.crane{
 		padding:20px;
-	}
-
-	.top-names{
-
-	}
-
-	.bottom-birds{
-	}
-
-	.bottom-names{
-	}
+	
 }
 
 /* 1024px and Larger  */
@@ -122,20 +113,10 @@
 		font-size:16px;
 	}
 
-	.top-birds{
-		width:1000px;
-	}
 
 	.crane{
 		padding-right:70px;
 	}
 
-	.top-names{
-	}
-
-	.bottom-birds {
-	}
-
-	.bottom-names{
-	}
+	
 }
