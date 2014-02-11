@@ -31,17 +31,12 @@
 		margin-left: 25px;
 	}
 
-
-
 	.name {
 		font-family:Helvetica;
 		color:white;
 		padding-right:10px;
-		text-align: center;
+		text-align:center;
 	}
-
-	
-
 
 /*******  BEGIN MEDIA QUERIES *******/
 
@@ -59,30 +54,39 @@
 		font-size:18px;
 	}
 
-	
-
 	.crane{
 		max-width:60%;
 	}
-
-
 
 	.name{
 		
 	}
 
-	.plover{
-		position: absolute;
-		margin-left: 246px;
+	.ivory{
+		position:relative;
+		float:left;
 	}
 
-	.ivory{
-		position: relative;
-		float: left;
+	.plover{
+		position:absolute;
+		margin-left:250px;
 	}
 
 	.whooping{
-		float: right;
+		float:right;
+	}
+
+	.iiiwi{
+		clear:both;
+		float:left;
+	}
+
+	.warbler{
+		position:absolute;
+	}
+
+	.nene{
+		float:right;
 	}
 }
 
@@ -96,13 +100,6 @@
 		font-size:16px;
 	}
 
-	
-	
-	.crane{
-		padding:20px;
-	
-}
-
 /* 1024px and Larger  */
 @media screen and (min-width:1024px) {
     body{
@@ -112,11 +109,5 @@
     .intro-message{
 		font-size:16px;
 	}
-
-
-	.crane{
-		padding-right:70px;
-	}
-
 	
 }
