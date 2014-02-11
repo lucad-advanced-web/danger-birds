@@ -126,7 +126,7 @@
 /* 481px - 768px */
 @media screen and (min-width:480px) {
       body  {
-            background:#FF0000;  /* Red */
+            background:#231f20;;  /* Red */
       }
 
 	h1.siteheader {
@@ -198,7 +198,7 @@
 /* 768px - 1024px */
 @media screen and (min-width:768px) {
       body{
-            background:#00FF00;   /* Green */
+            background:#231f20;;   /* Green */
       }
 
 	.intro-message{
@@ -275,7 +275,7 @@
 /* 1024px and Larger  */
 @media screen and (min-width:1024px) {
       body{
-            background: #0000FF;   /* Blue */
+            background:#231f20;;   /* Blue */
       }
     
     .intro-message{
